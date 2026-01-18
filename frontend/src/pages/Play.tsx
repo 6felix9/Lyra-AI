@@ -1,9 +1,16 @@
 import DashboardLayout from "@/components/DashboardLayout";
 import { PlaySongCard } from "@/components/PlaySongCard";
-import { placeholderSongs } from "@/data/placeholderSongs";
-import { Gamepad2 } from "lucide-react";
+import { useHistory } from "@/hooks/useSongGeneration";
+import { Gamepad2, Loader2, AlertCircle, Music } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Play = () => {
+  const { data: songs, isLoading, error, refetch } = useHistory();
+
+  // Filter to only show completed songs
+  const completedSongs = songs?.filter((song) => song.status === "completed") ?? [];
+
   return (
     <DashboardLayout>
       <div className="container max-w-6xl mx-auto py-8 px-4 h-full overflow-y-auto animate-in fade-in duration-500">
@@ -22,11 +29,42 @@ const Play = () => {
           </div>
         </div>
 
-        <div className="space-y-2">
-          {placeholderSongs.map((song) => (
-            <PlaySongCard key={song.id} song={song} />
-          ))}
-        </div>
+        {isLoading ? (
+          <div className="flex flex-col items-center justify-center py-20">
+            <Loader2 className="h-10 w-10 text-primary animate-spin mb-4" />
+            <p className="text-muted-foreground">Loading your music library...</p>
+          </div>
+        ) : error ? (
+          <div className="bg-destructive/10 border border-destructive/20 rounded-xl p-8 text-center max-w-md mx-auto">
+            <AlertCircle className="h-10 w-10 text-destructive mx-auto mb-4" />
+            <h3 className="text-lg font-semibold text-foreground">Failed to load songs</h3>
+            <p className="text-muted-foreground mt-2 mb-6">
+              There was an issue connecting to the database.
+            </p>
+            <Button onClick={() => refetch()}>Try Again</Button>
+          </div>
+        ) : completedSongs.length === 0 ? (
+          <div className="flex items-center justify-center min-h-[60vh]">
+            <div className="bg-muted/30 border border-dashed border-border rounded-2xl p-12 text-center max-w-md">
+              <div className="w-16 h-16 bg-background rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                <Music className="h-8 w-8 text-muted-foreground" />
+              </div>
+              <h3 className="text-xl font-semibold">No songs yet</h3>
+              <p className="text-muted-foreground mt-2 mb-8">
+                Generate a song first to play piano tiles.
+              </p>
+              <Button asChild>
+                <Link to="/dashboard">Generate My First Song</Link>
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-2">
+            {completedSongs.map((song) => (
+              <PlaySongCard key={song.id} song={song} />
+            ))}
+          </div>
+        )}
       </div>
     </DashboardLayout>
   );

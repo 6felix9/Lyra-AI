@@ -1,5 +1,5 @@
 import { API_BASE_URL } from './constants';
-import { GenerateSongRequest, GenerateSongResponse, JobStatusResponse, HistorySong, DeleteSongResponse, UserProfile } from './types';
+import { GenerateSongRequest, GenerateSongResponse, JobStatusResponse, HistorySong, DeleteSongResponse, UserProfile, PianoTilesChart } from './types';
 import { authClient } from '../auth';
 
 const MOOD_TO_TEMPO: Record<string, string> = {
@@ -179,6 +179,17 @@ export async function transcribeAudio(audio: Blob): Promise<{ text: string }> {
 export function getAudioUrl(path: string): string {
   if (path.startsWith('http')) return path;
   return `${API_BASE_URL}${path}`;
+}
+
+export async function getPianoTilesChart(jobId: string): Promise<PianoTilesChart> {
+  const response = await fetchWithAuth(`${API_BASE_URL}/api/piano-tiles/${jobId}`);
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || `Failed to get piano tiles chart: ${response.statusText}`);
+  }
+
+  return response.json();
 }
 
 async function fetchWithAuth(url: string, options: RequestInit = {}) {
