@@ -1,0 +1,787 @@
+[
+  {
+    "jobId": "9476dbde-f73a-40be-869d-0c7ad4caaf30",
+    "status": "completed",
+    "createdAt": "2026-01-18T02:28:26.335Z",
+    "updatedAt": "2026-01-18T02:28:49.653Z",
+    "lyrics": "In the neon city lights, Felix sees, \nElectric dreams are buzzing in the breeze. \nShadows dance under the glowing sky, \nIn this cyber world, we soar and fly. \n\nFelix, let's ride the neon wave, \nIn the future where we crave. \nSynthwave beats, they guide our way, \nFelix, in the night, we'll stay. \n\nFelix, let's ride the neon wave, \nIn this city, we'll be brave. \nSynthwave dreams, they light the night, \nFelix, everything feels right.",
+    "audioUrl": "/api/audio/9476dbde-f73a-40be-869d-0c7ad4caaf30",
+    "wordTimings": [
+      {
+        "word": "In",
+        "start": 0,
+        "end": 0.16
+      },
+      {
+        "word": "the",
+        "start": 0.2,
+        "end": 0.32
+      },
+      {
+        "word": "neon",
+        "start": 0.464,
+        "end": 1.04
+      },
+      {
+        "word": "city",
+        "start": 1.12,
+        "end": 1.44
+      },
+      {
+        "word": "lights,",
+        "start": 1.531,
+        "end": 2.157
+      },
+      {
+        "word": "Felix",
+        "start": 2.237,
+        "end": 2.637
+      },
+      {
+        "word": "sees,",
+        "start": 2.813,
+        "end": 3.757
+      },
+      {
+        "word": "Electric",
+        "start": 4.117,
+        "end": 4.477
+      },
+      {
+        "word": "dreams",
+        "start": 4.557,
+        "end": 5.037
+      },
+      {
+        "word": "are",
+        "start": 5.077,
+        "end": 5.197
+      },
+      {
+        "word": "buzzing",
+        "start": 5.307,
+        "end": 6.077
+      },
+      {
+        "word": "in",
+        "start": 6.183,
+        "end": 6.395
+      },
+      {
+        "word": "the",
+        "start": 6.415,
+        "end": 6.475
+      },
+      {
+        "word": "breeze.",
+        "start": 6.6,
+        "end": 7.39
+      },
+      {
+        "word": "Shadows",
+        "start": 7.54,
+        "end": 8.31
+      },
+      {
+        "word": "dance",
+        "start": 8.416,
+        "end": 8.946
+      },
+      {
+        "word": "under",
+        "start": 9.012,
+        "end": 9.342
+      },
+      {
+        "word": "the",
+        "start": 9.362,
+        "end": 9.422
+      },
+      {
+        "word": "glowing",
+        "start": 9.502,
+        "end": 10.062
+      },
+      {
+        "word": "sky,",
+        "start": 10.242,
+        "end": 10.822
+      },
+      {
+        "word": "In",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "this",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "cyber",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "world,",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "we",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "soar",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "and",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "fly.",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "Felix,",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "let's",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "ride",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "the",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "neon",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "wave,",
+        "start": 10.995,
+        "end": 10.995
+      },
+      {
+        "word": "In",
+        "start": 10.995,
+        "end": 11.261
+      },
+      {
+        "word": "the",
+        "start": 11.325,
+        "end": 14.135
+      },
+      {
+        "word": "future",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "where",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "we",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "crave.",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "Synthwave",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "beats,",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "they",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "guide",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "our",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "way,",
+        "start": 14.135,
+        "end": 14.135
+      },
+      {
+        "word": "Felix,",
+        "start": 14.135,
+        "end": 16.215
+      },
+      {
+        "word": "in",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "the",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "night,",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "we'll",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "stay.",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "Felix,",
+        "start": 16.455,
+        "end": 16.455
+      },
+      {
+        "word": "let's",
+        "start": 16.455,
+        "end": 16.615
+      },
+      {
+        "word": "ride",
+        "start": 16.695,
+        "end": 17.015
+      },
+      {
+        "word": "the",
+        "start": 17.055,
+        "end": 17.175
+      },
+      {
+        "word": "neon",
+        "start": 17.287,
+        "end": 17.735
+      },
+      {
+        "word": "wave,",
+        "start": 17.879,
+        "end": 18.495
+      },
+      {
+        "word": "In",
+        "start": 18.615,
+        "end": 18.775
+      },
+      {
+        "word": "this",
+        "start": 18.815,
+        "end": 21.645
+      },
+      {
+        "word": "city,",
+        "start": 21.645,
+        "end": 21.645
+      },
+      {
+        "word": "we'll",
+        "start": 21.645,
+        "end": 21.645
+      },
+      {
+        "word": "be",
+        "start": 21.645,
+        "end": 21.645
+      },
+      {
+        "word": "brave.",
+        "start": 21.645,
+        "end": 21.645
+      },
+      {
+        "word": "Synthwave",
+        "start": 21.645,
+        "end": 22.205
+      },
+      {
+        "word": "dreams,",
+        "start": 22.67,
+        "end": 22.923
+      },
+      {
+        "word": "they",
+        "start": 22.955,
+        "end": 23.083
+      },
+      {
+        "word": "light",
+        "start": 23.961,
+        "end": 23.961
+      },
+      {
+        "word": "the",
+        "start": 23.961,
+        "end": 23.961
+      },
+      {
+        "word": "night,",
+        "start": 23.961,
+        "end": 23.961
+      },
+      {
+        "word": "Felix,",
+        "start": 23.961,
+        "end": 25.759
+      },
+      {
+        "word": "everything",
+        "start": 26.225,
+        "end": 26.225
+      },
+      {
+        "word": "feels",
+        "start": 26.225,
+        "end": 26.225
+      },
+      {
+        "word": "right.",
+        "start": 26.225,
+        "end": 28.835
+      }
+    ]
+  },
+  {
+    "jobId": "5d405c70-2348-44d5-bd9d-46af780b53b5",
+    "status": "completed",
+    "createdAt": "2026-01-18T02:29:54.202Z",
+    "updatedAt": "2026-01-18T02:30:16.521Z",
+    "lyrics": "In the quiet of the night, \nUnderneath the moon's soft light, \nJohn, we gather near the flame, \nTelling stories, no one's the same. \n\nWith an old guitar in hand, \nPlaying songs of our own land, \nFeel the warmth, the gentle sound, \nIn this moment, we're unbound. \n\nOh John, oh John, let the music play, \nStrum the chords, let worries fade away. \nOh John, oh John, in this cozy light, \nWe find our peace, in the heart of the night.",
+    "audioUrl": "/api/audio/5d405c70-2348-44d5-bd9d-46af780b53b5",
+    "wordTimings": [
+      {
+        "word": "In",
+        "start": 0,
+        "end": 0.24
+      },
+      {
+        "word": "the",
+        "start": 0.3,
+        "end": 0.48
+      },
+      {
+        "word": "quiet",
+        "start": 0.6,
+        "end": 1.2
+      },
+      {
+        "word": "of",
+        "start": 1.28,
+        "end": 1.44
+      },
+      {
+        "word": "the",
+        "start": 1.46,
+        "end": 1.52
+      },
+      {
+        "word": "night,",
+        "start": 1.64,
+        "end": 2.24
+      },
+      {
+        "word": "Underneath",
+        "start": 2.24,
+        "end": 3.44
+      },
+      {
+        "word": "the",
+        "start": 3.48,
+        "end": 3.6
+      },
+      {
+        "word": "moon's",
+        "start": 3.696,
+        "end": 4.24
+      },
+      {
+        "word": "soft",
+        "start": 4.32,
+        "end": 4.64
+      },
+      {
+        "word": "light,",
+        "start": 4.746,
+        "end": 5.356
+      },
+      {
+        "word": "John,",
+        "start": 5.564,
+        "end": 6.236
+      },
+      {
+        "word": "we",
+        "start": 6.289,
+        "end": 6.395
+      },
+      {
+        "word": "gather",
+        "start": 6.486,
+        "end": 7.032
+      },
+      {
+        "word": "near",
+        "start": 7.096,
+        "end": 7.352
+      },
+      {
+        "word": "the",
+        "start": 7.392,
+        "end": 7.512
+      },
+      {
+        "word": "flame,",
+        "start": 7.618,
+        "end": 8.228
+      },
+      {
+        "word": "Telling",
+        "start": 8.468,
+        "end": 9.024
+      },
+      {
+        "word": "stories,",
+        "start": 9.124,
+        "end": 9.904
+      },
+      {
+        "word": "no",
+        "start": 10.037,
+        "end": 10.303
+      },
+      {
+        "word": "one's",
+        "start": 10.383,
+        "end": 10.703
+      },
+      {
+        "word": "the",
+        "start": 10.743,
+        "end": 10.863
+      },
+      {
+        "word": "same.",
+        "start": 10.991,
+        "end": 11.543
+      },
+      {
+        "word": "With",
+        "start": 11.583,
+        "end": 12.223
+      },
+      {
+        "word": "an",
+        "start": 12.303,
+        "end": 12.463
+      },
+      {
+        "word": "old",
+        "start": 12.583,
+        "end": 12.943
+      },
+      {
+        "word": "guitar",
+        "start": 13.034,
+        "end": 13.58
+      },
+      {
+        "word": "in",
+        "start": 13.633,
+        "end": 13.739
+      },
+      {
+        "word": "hand,",
+        "start": 13.883,
+        "end": 14.539
+      },
+      {
+        "word": "Playing",
+        "start": 14.539,
+        "end": 15.339
+      },
+      {
+        "word": "songs",
+        "start": 15.445,
+        "end": 15.975
+      },
+      {
+        "word": "of",
+        "start": 16.055,
+        "end": 16.215
+      },
+      {
+        "word": "our",
+        "start": 16.295,
+        "end": 16.535
+      },
+      {
+        "word": "own",
+        "start": 16.635,
+        "end": 16.935
+      },
+      {
+        "word": "land,",
+        "start": 17.079,
+        "end": 17.735
+      },
+      {
+        "word": "Feel",
+        "start": 17.895,
+        "end": 18.215
+      },
+      {
+        "word": "the",
+        "start": 18.255,
+        "end": 18.375
+      },
+      {
+        "word": "warmth,",
+        "start": 18.466,
+        "end": 19.172
+      },
+      {
+        "word": "the",
+        "start": 19.212,
+        "end": 19.332
+      },
+      {
+        "word": "gentle",
+        "start": 19.412,
+        "end": 19.892
+      },
+      {
+        "word": "sound,",
+        "start": 19.998,
+        "end": 20.568
+      },
+      {
+        "word": "In",
+        "start": 20.768,
+        "end": 21.088
+      },
+      {
+        "word": "this",
+        "start": 21.152,
+        "end": 21.408
+      },
+      {
+        "word": "moment,",
+        "start": 21.499,
+        "end": 22.245
+      },
+      {
+        "word": "we're",
+        "start": 22.311,
+        "end": 22.602
+      },
+      {
+        "word": "unbound.",
+        "start": 22.735,
+        "end": 23.721
+      },
+      {
+        "word": "Oh",
+        "start": 24.2,
+        "end": 24.2
+      },
+      {
+        "word": "John,",
+        "start": 24.344,
+        "end": 25.08
+      },
+      {
+        "word": "oh",
+        "start": 25.16,
+        "end": 25.32
+      },
+      {
+        "word": "John,",
+        "start": 25.448,
+        "end": 26.2
+      },
+      {
+        "word": "let",
+        "start": 26.26,
+        "end": 26.44
+      },
+      {
+        "word": "the",
+        "start": 26.46,
+        "end": 26.52
+      },
+      {
+        "word": "music",
+        "start": 26.613,
+        "end": 27.078
+      },
+      {
+        "word": "play,",
+        "start": 27.19,
+        "end": 27.798
+      },
+      {
+        "word": "Strum",
+        "start": 27.978,
+        "end": 28.438
+      },
+      {
+        "word": "the",
+        "start": 28.478,
+        "end": 28.598
+      },
+      {
+        "word": "chords,",
+        "start": 28.689,
+        "end": 29.435
+      },
+      {
+        "word": "let",
+        "start": 29.485,
+        "end": 29.635
+      },
+      {
+        "word": "worries",
+        "start": 29.725,
+        "end": 30.355
+      },
+      {
+        "word": "fade",
+        "start": 30.435,
+        "end": 30.755
+      },
+      {
+        "word": "away.",
+        "start": 30.883,
+        "end": 31.435
+      },
+      {
+        "word": "Oh",
+        "start": 31.475,
+        "end": 31.955
+      },
+      {
+        "word": "John,",
+        "start": 32.083,
+        "end": 32.835
+      },
+      {
+        "word": "oh",
+        "start": 32.915,
+        "end": 33.075
+      },
+      {
+        "word": "John,",
+        "start": 33.203,
+        "end": 33.955
+      },
+      {
+        "word": "in",
+        "start": 34.008,
+        "end": 34.114
+      },
+      {
+        "word": "this",
+        "start": 34.178,
+        "end": 34.434
+      },
+      {
+        "word": "cozy",
+        "start": 34.546,
+        "end": 34.994
+      },
+      {
+        "word": "light,",
+        "start": 35.074,
+        "end": 35.554
+      },
+      {
+        "word": "We",
+        "start": 36.033,
+        "end": 36.033
+      },
+      {
+        "word": "find",
+        "start": 36.129,
+        "end": 36.513
+      },
+      {
+        "word": "our",
+        "start": 36.573,
+        "end": 36.753
+      },
+      {
+        "word": "peace,",
+        "start": 36.859,
+        "end": 37.549
+      },
+      {
+        "word": "in",
+        "start": 37.602,
+        "end": 37.708
+      },
+      {
+        "word": "the",
+        "start": 37.748,
+        "end": 37.868
+      },
+      {
+        "word": "heart",
+        "start": 37.948,
+        "end": 38.348
+      },
+      {
+        "word": "of",
+        "start": 38.481,
+        "end": 38.747
+      },
+      {
+        "word": "the",
+        "start": 38.787,
+        "end": 38.907
+      },
+      {
+        "word": "night.",
+        "start": 38.987,
+        "end": 39.547
+      }
+    ]
+  }
+]

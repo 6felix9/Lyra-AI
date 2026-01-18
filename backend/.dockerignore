@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (never copy to image)
+.env.local
+.env
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Documentation
+README.md
+CLAUDE.md
+
+# Audio files (will be generated at runtime)
+audio/
+
+# Docker
+Dockerfile
+.dockerignore
